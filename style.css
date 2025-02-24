@@ -23,7 +23,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     position: relative;
 }
@@ -36,10 +36,10 @@ img {
 
 /* nice big font on a banner style background */
 .topic-title{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(148, 214, 181);
 }
 
 /* Three column grid with a nice big gap */
@@ -55,11 +55,11 @@ img {
 
 /* Styling for the individual topic cards rounded edges background color and a drop shadow */
 .topic-card{
-    background-color: rgb(71, 71, 71);
-    color: white;
+    background-color: rgb(77, 131, 138);
+    color: rgb(255, 255, 255);
     padding: 1em;
     border-radius: 0.5em;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 10px rgba(32, 49, 63, 0.575);
 }
 
 /* Styling for the topic card titles */
@@ -73,8 +73,8 @@ img {
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
-    background-color: rgb(71, 71, 71);
-    color: white;
-    text-align: right;
+    background-color: rgb(101, 156, 152);
+    color: rgb(0, 0, 0);
+    text-align: left;
     padding: 3em 3em;
 }
