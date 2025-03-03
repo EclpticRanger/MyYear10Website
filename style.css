@@ -7,6 +7,7 @@ html {
     /* The Font Family- Really important!! */
     font-family: Arial, sans-serif;
     box-sizing: border-box;
+    background-image: url("https://www.publicdomainpictures.net/pictures/280000/velka/background-waves-water-wave.jpg")
 }
 
 /* reset for images to ensure they ar 100% of the parent container width */
