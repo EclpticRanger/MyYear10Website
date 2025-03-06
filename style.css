@@ -10,6 +10,34 @@ html {
     background-image: url("https://www.publicdomainpictures.net/pictures/280000/velka/background-waves-water-wave.jpg")
 }
 
+button{
+    background-color: rgb(12, 204, 230);
+    padding: 0.5em 1em;
+    border: none;
+    font-size: large;
+    text-decoration: none;
+    
+    
+}
+button:hover{
+    background-color: rgba(32, 49, 63, 0.575);
+}
+
+.active {
+    background-color: rgb(101, 186, 225);
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    width: 100vw;
+    background-color: rgb(12, 204, 230);
+}
+
+
 /* reset for images to ensure they ar 100% of the parent container width */
 img {
     width: 100%;
