@@ -103,14 +103,6 @@ img {
     box-shadow: 10px 10px 10px rgba(32, 49, 63, 0.575);
 }
 
-.topic-card-text{
-    background-color: rgb(92, 170, 206);
-    color: rgb(255, 255, 255);
-    padding: 1em;
-    border-radius: 0.5em;
-    box-shadow: 10px 10px 10px rgba(32, 49, 63, 0.575);
-}
-
 /* Styling for the topic card titles */
 .topic-card-text{
     font-size: 1.5em;
