@@ -78,6 +78,12 @@ img {
     background-color: rgb(12, 204, 230);
 }
 
+.small-text {
+    font-size: 0.8em; 
+    color: #ffffff;      
+    margin-top: 5px;  
+}
+
 .spacer{
     background-color: rgb(4, 178, 201);    
     padding: 5px;                     
