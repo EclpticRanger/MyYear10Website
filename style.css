@@ -5,7 +5,7 @@ html {
     padding: 0;
     height: 100%;
     /* The Font Family- Really important!! */
-    font-family: Arial, sans-serif;
+    font-family: montserrat;
     box-sizing: border-box;
     background-image: url("https://www.publicdomainpictures.net/pictures/280000/velka/background-waves-water-wave.jpg")
 }
@@ -16,7 +16,7 @@ button{
     border: none;
     font-size: large;
     text-decoration: none;
-    
+    font-family: montserrat;
     
 }
 button:hover{
