@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const barcodeInput = document.getElementById("barcodeInput");
     const checkButton = document.getElementById("checkButton");
-    const clearButton = document.getElementById("clearButton");
+    const clearButton = document.getElementById("barcodeClearButton");
     const resultOutput = document.getElementById("resultOutput");
     const suggestedOutput = document.getElementById("suggestedOutput");
 
