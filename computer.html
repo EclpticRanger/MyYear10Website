@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="Scripts/Converter.js"></script>
+    <script defer src="Scripts/Cypher.js"></script>
+    <script defer src="Scripts/BarcodeChecker.js"></script>
+    <title>Liam Thomas Showcase Website</title>
+    <link rel="icon" href="images/Immage Creation/Snowflake.png" type="image/x-icon">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-text"></div>
+    </section>
+    <div class="nav">
+        <button><a href="index.html">Home</a></button>
+        <button><a href="image.html">Image Creation</a></button>
+        <button class ="active"><a href="computer.html">Computer Science</a></button>
+        <button><a href="index.html">Programming</a></button>
+        <button><a href="index.html">3D Modelling</a></button>
+        <button><a href="index.html">Animation</a></button>
+        <button><a href="index.html">Design for Manufacturing</a></button>
+        <button><a href="index.html">Audio Visual </a></button>
+        <button><a href="index.html">Game Dev</a></button>
+        <button><a href="index.html">My Project</a></button>
+    </div>
+    <section class="topic">
+        <div class="topic-title">
+            <h1>Binary & Hexadecimal</h1>
+        </div>
+        <div class="topic-subtitle" style="border: 10%; border-radius: 10px; padding: 20px; margin: 20px;">
+            <p>Binary is a base-2 numeral system that uses only two digits, 0 and 1 this is used to write data in computers. Hexadecimal, or base-16, uses sixteen symbols: 0-9 and A-F. It is often used in computing as a more human-friendly representation of binary-coded values.</p>
+        </div>
+        <h1 class="topic-title" style="padding: 1em;">
+            Converting
+        </h1>
+        <div class="container" style="border-radius: 1%; border: 10%; padding: 20px; margin: 20px;">
+            <div class="title">Converter Tool</div>
+            <label for="stringInput" class="question">Enter a string to convert:</label>
+            <input class="strinput" type="text" id="stringInput" placeholder="Enter string here...">
+            <div class="buttons">
+                <button class="codebutton" id="convertStringButton">Convert String</button>
+                <button class="codebutton" id="clearStringButton">Clear</button>
+            </div>
+            <div class="subtitle">String Conversion Output:</div>
+            <div class="output">
+                <p id="binaryOutput">Binary: </p>
+                <p id="hexOutput">Hexadecimal: </p>
+            </div>
+            <label for="integerInput" class="question">Enter an integer to convert:</label>
+            <input class="strinput" type="number" id="integerInput" placeholder="Enter integer here...">
+            <div class="buttons">
+                <button class="codebutton" id="convertIntegerButton">Convert Integer</button>
+                <button class="codebutton" id="clearIntegerButton">Clear</button>
+            </div>
+            <div class="subtitle">Integer Conversion Output:</div>
+            <div class="output">
+                <p id="binaryIntOutput">Binary: </p>
+                <p id="hexIntOutput">Hexadecimal: </p>
+            </div>
+        </div>
+        <h1 class="topic-title" style="padding: 1em;">
+            Hex Color Codes
+        </h1>
+        <img src="images/Computer Scince/HEX DRagons.png" alt="Hex Dragon" style="border: 50%; border-radius: 10px; padding: 10px; margin: 10px; scale: 80%; border-radius: 5%;">
+        <div class="topic-title">
+            <h1>ASCII</h1>
+        </div>
+        <div class="topic-subtitle" style="border: 10%; border-radius: 10px; padding: 20px; margin: 20px;">
+            <p>ASCII (American Standard Code for Information Interchange) is a character encoding standard that uses numbers to represent characters. Each letter, digit, and symbol is assigned a unique number from 0 to 127. For example, the letter 'A' is represented by the number 65 in ASCII.</p>
+        </div>
+        <img src="images/Computer Scince/ASCII art.png" alt="ASCII art" style="border: 50%; border-radius: 10px; padding: 10px; margin: 10px; scale: 80%; border-radius: 5%;">
+        <h1 class="topic-title" style="padding: 1em;">
+            ASCII Cypher
+        </h1>
+        <div class="container"  style="border-radius: 1%; border: 10%; padding: 20px; margin: 20px;">
+            <div class="title">Cypher Encoder/Decoder</div>
+            <input class="strinput" type="string" id="inputText" placeholder="Enter text here...">
+            <input type="number" id="sifer" placeholder="Enter cypher value" />
+            <div class="buttons">
+                <button class="codebutton" id="encodeButton">Encode</button>
+                <button class="codebutton" id="decodeButton">Decode</button>
+                <button class="codebutton" id="clearButton">Clear</button>
+                <div class="subtitle">Output:</div>
+                <input class="strinput" id="outputText" readonly>
+            </div>
+        </div>
+        <div class="topic-title">
+            <h1>Error Detection</h1>
+        </div>
+        <div class="topic-subtitle" style="border: 10%; border-radius: 10px; padding: 20px; margin: 20px;">
+            <p>Error detection is a technique used to identify errors in data transmission or storage. Common methods include parity bits, checksums, and cyclic redundancy checks (CRC). These methods add extra bits to the data to help detect errors that may occur during transmission.</p>
+        </div>
+        <h1 class="topic-title" style="padding: 1em;">
+            13 Digit Barcode Checker
+        </h1>
+        <div class="container" style="border-radius: 1%; border: 10%; padding: 20px; margin: 20px;">
+              <div class="title">Enter Barcode</div>
+            <input class="strinput" type="text" id="barcodeInput" placeholder="Enter a 13-digit barcode">
+            <div class="buttons">
+                <button class="codebutton" id="checkButton">Check Barcode</button>
+                <button class="codebutton" id="clearButton">Clear</button>
+            </div>
+            <div class="subtitle">Result:</div>
+            <div class="output">
+                <p id="resultOutput">Result: </p>
+                <p id="suggestedOutput"></p>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 My Showcase Website By Liam Thomas</p>
+    </footer>
+</body>
+</html>
